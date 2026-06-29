@@ -18,7 +18,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const msg = `Hi! I'm interested in your web development services.\n\nName: ${formData.name || '—'}\nEmail: ${formData.email || '—'}\nBudget: ${formData.budget || '—'}\nService: ${formData.service || '—'}\nMessage: ${formData.message || 'I would like to discuss a project.'}`;
-    window.open(`https://wa.me/917008414093?text=${encodeURIComponent(msg)}`, '_blank');
+    window.open(`https://wa.me/919707774335?text=${encodeURIComponent(msg)}`, '_blank');
   };
 
   return (
