@@ -192,16 +192,15 @@ export default function Hero() {
           <div className="font-mono text-juice mb-6 uppercase tracking-[0.15em] text-[0.85rem]">
             Web Developer &amp; Designer
           </div>
-          
-          <h1 className="font-display text-[clamp(1.5rem,6vw,6rem)] font-extrabold leading-[1.05] tracking-tight uppercase mb-12 max-w-[1000px] mx-auto">
+          <h1 className="font-display text-[clamp(2.5rem,8vw,7.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] uppercase mb-10 max-w-[1000px] mx-auto drop-shadow-lg">
             <span className="block overflow-hidden pb-[0.2em] -mb-[0.2em] pr-[0.2em] -mr-[0.2em]">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards]" style={{ animationDelay: '0.2s' }}>Digital</span>
+              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-text-primary" style={{ animationDelay: '0.1s' }}>Digital</span>
             </span>
             <span className="block overflow-hidden pb-[0.2em] -mb-[0.2em] pr-[0.2em] -mr-[0.2em]">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-juice [text-shadow:0_0_80px_rgba(204,255,0,0.2)]" style={{ animationDelay: '0.4s' }}>Experiences</span>
+              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-juice [text-shadow:0_0_100px_rgba(204,255,0,0.3)]" style={{ animationDelay: '0.3s' }}>Experiences</span>
             </span>
             <span className="block overflow-hidden pb-[0.2em] -mb-[0.2em] pr-[0.2em] -mr-[0.2em]">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-transparent [-webkit-text-stroke:1.5px_theme(colors.text-primary)]" style={{ animationDelay: '0.6s' }}>Crafted.</span>
+              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-transparent [-webkit-text-stroke:2px_theme(colors.text-primary)]" style={{ animationDelay: '0.5s' }}>Crafted.</span>
             </span>
           </h1>
           
