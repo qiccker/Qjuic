@@ -192,15 +192,15 @@ export default function Hero() {
           <div className="font-mono text-juice mb-6 uppercase tracking-[0.15em] text-[0.85rem]">
             Web Developer &amp; Designer
           </div>
-          <h1 className="font-display text-[clamp(2.5rem,8vw,7.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] uppercase mb-10 max-w-[1000px] mx-auto drop-shadow-lg">
-            <span className="block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-text-primary" style={{ animationDelay: '0.1s' }}>Digital</span>
+          <h1 className="w-full flex flex-col items-center font-display text-[clamp(2.5rem,8vw,7.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em] uppercase mb-10 max-w-[1000px] mx-auto drop-shadow-lg text-center">
+            <span className="w-full block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
+              <span className="block w-full text-center animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-text-primary" style={{ animationDelay: '0.1s' }}>Digital</span>
             </span>
-            <span className="block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-juice [text-shadow:0_0_100px_rgba(204,255,0,0.3)]" style={{ animationDelay: '0.3s' }}>Experiences</span>
+            <span className="w-full block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
+              <span className="block w-full text-center animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-juice [text-shadow:0_0_100px_rgba(204,255,0,0.3)]" style={{ animationDelay: '0.3s' }}>Experiences</span>
             </span>
-            <span className="block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
-              <span className="block animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-transparent [-webkit-text-stroke:2px_theme(colors.text-primary)]" style={{ animationDelay: '0.5s' }}>Crafted.</span>
+            <span className="w-full block overflow-visible [clip-path:inset(-200%_-200%_0_-200%)] pb-[0.2em] -mb-[0.2em] whitespace-nowrap">
+              <span className="block w-full text-center animate-[fade-up_1s_cubic-bezier(0.16,1,0.3,1)_backwards] text-transparent [-webkit-text-stroke:2px_theme(colors.text-primary)]" style={{ animationDelay: '0.5s' }}>Crafted.</span>
             </span>
           </h1>
           
